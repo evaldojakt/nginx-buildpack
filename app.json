@@ -12,7 +12,22 @@
 		}
 	],
 	"env": {
-		"UPSTREAM_SERVER": {
+		"BUILD_UPSTREAM_ROUTE": {
+			"description": "URL of upstream server to which all requests should be proxied"
+		},
+		"BUILD_UPSTREAM_SERVER": {
+			"description": "URL of upstream server to which all requests should be proxied"
+		},
+		"API_UPSTREAM_ROUTE": {
+			"description": "URL of upstream server to which all requests should be proxied"
+		},
+		"API_UPSTREAM_SERVER": {
+			"description": "URL of upstream server to which all requests should be proxied"
+		},
+		"FRONT_UPSTREAM_ROUTE": {
+			"description": "URL of upstream server to which all requests should be proxied"
+		},
+		"FRONT_UPSTREAM_SERVER": {
 			"description": "URL of upstream server to which all requests should be proxied"
 		}
 	},
